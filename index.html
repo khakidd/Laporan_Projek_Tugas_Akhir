@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Project PWEB</title>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- NAVBAR START -->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">Rakharsya <span>Fatra</span></a>
+
+        <div class="navbar-nav">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+            <a href="#subscribe">Subscribe</a>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- MAIN START -->
+    <!-- HERO SECTION -->
+    <section class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Rakha<br></span> a Frontend Developer</h1>
+            <p>My name is Muhammad Rakharsya Fatra Subulana the part of Informatics Students of Ahmad Dahkan University.</p>
+            <div class="btn-box">
+                <a download="" href="assets/pdf/Rakha-CV.pdf"><button class="btn-1">Hire Me</button></a>
+                <a href="#project"><button class="btn-2">Experience</button></a>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="assets/img/home.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/img/about.jpg" alt="">
+        </div>
+        <div class="content">
+            <h2>About <span>Me</span></h2>
+            <h3>Frontend <span>Developer</span></h3>
+            <p>I'm an informatics engineer student class of 2023 at Ahmad Dahlan University. I am interested in entering informatics because it has good job prospects and is my hobby. One of the IT areas that I want to develop is web developer and data analys. I also like learning new things, especially in programming, to sharpen and broaden my knowledge about informatics</p>
+        </div>
+    </section>
+
+    <!-- PROJECT SECTION -->
+    <section class="project-section" id="project">
+        <h2>My <span>Projects</span></h2>
+        <div class="project-container">
+            <div class="project">
+                <img src="assets/img/project1.jpeg" alt="">
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, consequatur.</p>
+            </div>
+            <div class="project">
+                <img src="assets/img/project2.jpg" alt="">
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, consequatur.</p>
+            </div>
+            <div class="project">
+                <img src="assets/img/project3.jpeg" alt="">
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, consequatur.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+        <h2>Contact <span>Me</span></h2>
+        <form id="contactForm" action="process_contact.php" method="post">
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Comment:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- SUBSCRIBE SECTION -->
+    <section class="subscribe-section" id="subscribe">
+        <h2>Subscriber</h2>
+        <form id="subscribeForm" action="process_subscribe.php" method="post">
+            <div class="form-group">
+                <label for="subscriberName">Name:</label>
+                <input type="text" id="subscriberName" name="subscriberName" required>
+            </div>
+            <div class="form-group">
+                <label for="subscriberEmail">Email:</label>
+                <input type="email" id="subscriberEmail" name="subscriberEmail" required>
+            </div>
+            <div class="form-group">
+                <label for="preferences">Preferences:</label>
+                <input type="text" id="preferences" name="preferences" required>
+            </div>
+            <div class="form-group">
+                <label for="frequency">Frequency:</label>
+                <input type="text" id="frequency" name="frequency" required>
+            </div>
+            <div class="form-group">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" required></textarea>
+            </div>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="socials">
+            <a href="https://www.instagram.com/rakharsyafatra_/"><i data-feather="instagram"></i></a>
+            <a href="https://twitter.com/_rakharsya"><i data-feather="twitter"></i></a>
+            <a href="https://www.facebook.com/"><i data-feather="facebook"></i></a>
+        </div>
+
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
+        </div>
+
+        <div class="credit">
+            <p>Created by <a href="">rakharsyafatra</a>. | &copy; 2023</p>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script>
+        feather.replace();
+    </script>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>

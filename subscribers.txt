@@ -1,0 +1,6 @@
+Name: raka
+Email: raka@gmail
+Preferences: hiburan
+Frequency: mahasiswa
+Comments: ini adalah komen
+------------------------
